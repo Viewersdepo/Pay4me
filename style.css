@@ -34,20 +34,16 @@ body {
     height: 40px;
     margin: 10px;
 }
-/* section {
+section {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
     background-color: #f0f0f0; /* Light background color */
-    /* background-image: 
+    background-image: 
         linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
     background-size: 20px 20px; /* Adjust grid size */
-} */ */
-
-/* Optional: Style for your content */
-/* .content {
-    padding: 20px;
-    color: #333; */
 }
+
+
