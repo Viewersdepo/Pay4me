@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    width: 1168.06px;
+    height: 1445.48px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.download-btn {
+    background: #A1D65F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.watch-demo {
+    background: #fff;
+    border: 2px solid #A1D65F;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.trusted-users img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: -10px;
+}
+.partner-logos img {
+    height: 40px;
+    margin: 10px;
+}
+/* section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+    /* background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust grid size */
+} */ */
+
+/* Optional: Style for your content */
+/* .content {
+    padding: 20px;
+    color: #333; */
+}
