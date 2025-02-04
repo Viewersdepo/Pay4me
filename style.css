@@ -46,4 +46,102 @@ section {
     background-size: 20px 20px; /* Adjust grid size */
 }
 
+/* Container for relative positioning */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Main Image */
+.main-image {
+    width: 100%;
+    display: block;
+}
+
+/* Floating Boxes */
+.floating-box {
+    position: absolute;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+/* Positioning for Large Screens */
+.box1 {
+    width: Hug (229.29px)px;
+height: Hug (58.47px)px;
+top: 40%;
+left: 61.12px;
+padding: 9.73px 0px 0px 0px;
+gap: 15.14px;
+border-radius: 10.09px 0px 0px 0px;
+border: 0.63px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+
+
+.box2 {
+    top: 45%;
+    /* right: 5%; */
+    width: Fixed (240.91px)px;
+height: Fixed (117.3px)px;
+/* top: 214.44px; */
+left: 669.2px;
+padding: 15.14px 0px 0px 0px;
+gap: 15.14px;
+border-radius: 10.09px 0px 0px 0px;
+border: 0.63px 0px 0px 0px;
+opacity: 0px;
+
+    
+}
+
+.box3 {
+    /* bottom: 40%; */
+    /* left: 5%; */
+    width: Hug (183.92px)px;
+height: Hug (54.35px)px;
+top: 800.45px;
+left: 20%;
+padding: 9.73px 0px 0px 0px;
+gap: 15.14px;
+border-radius: 10.09px 0px 0px 0px;
+border: 0.63px 0px 0px 0px;
+opacity: 0px;
+
+}
+.icon{
+    width: 2px;
+height: 2px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .floating-box {
+        position: static; /* Prevent overlap on small screens */
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Hero-image {
+        width: 100%;
+    }
+}
 
