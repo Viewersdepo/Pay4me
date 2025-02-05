@@ -162,18 +162,47 @@ opacity: 0px;
         width: 100%;
     }
 }
-.brands{
-    font-family: Avenir;
-    font-size: 12.98px;
-    font-weight: 400;
-    line-height: 22.71px;
-    letter-spacing: -0.01em;
+.brands {
+    font-family: Avenir, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     text-transform: uppercase;
     background: #FFFFFF;
 }
+
+/* Partner Logos Styling */
+.partner-logos img {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover Effect */
+.partner-logos img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    opacity: 0.8; /* Reduce opacity slightly */
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2)); /* Adds a subtle shadow */
+}
+
+/* Animation when logos appear */
+.partner-logos img {
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+/* Keyframe Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* styles for the features */
 body {
     background-color: #e6f4ea; /* Light green background */
