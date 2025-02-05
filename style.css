@@ -71,6 +71,7 @@ section {
 }
 
 /* Positioning for Large Screens */
+/* styling for box1 */
 .box1 {
     width: Hug (229.29px)px;
 height: Hug (58.47px)px;
@@ -85,30 +86,24 @@ opacity: 0px;
 }
 
 
-
+/* styling for box2 */
 .box2 {
     top: 45%;
-    /* right: 5%; */
     width: Fixed (240.91px)px;
-height: Fixed (117.3px)px;
-/* top: 214.44px; */
-left: 669.2px;
-padding: 15.14px 0px 0px 0px;
-gap: 15.14px;
-border-radius: 10.09px 0px 0px 0px;
-border: 0.63px 0px 0px 0px;
-opacity: 0px;
-
-    
+    height: Fixed (117.3px)px;
+    left: 669.2px;
+    padding: 15.14px 0px 0px 0px;
+    gap: 15.14px;
+    border-radius: 10.09px 0px 0px 0px;
+    border: 0.63px 0px 0px 0px;
+    opacity: 0px;
 }
-
+/* styling for box3 */
 .box3 {
-    /* bottom: 40%; */
-    /* left: 5%; */
     width: Hug (183.92px)px;
 height: Hug (54.35px)px;
 top: 800.45px;
-left: 20%;
+left: 10%;
 padding: 9.73px 0px 0px 0px;
 gap: 15.14px;
 border-radius: 10.09px 0px 0px 0px;
@@ -116,13 +111,36 @@ border: 0.63px 0px 0px 0px;
 opacity: 0px;
 
 }
-.icon{
-    width: 2px;
-height: 2px;
-gap: 0px;
-opacity: 0px;
-
+/* styling for the content in box3 */
+.google-rating {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    width: fit-content;
 }
+
+.google-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rating-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
@@ -144,4 +162,16 @@ opacity: 0px;
         width: 100%;
     }
 }
+.brands{
+    font-family: Avenir;
+    font-size: 12.98px;
+    font-weight: 400;
+    line-height: 22.71px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    background: #FFFFFF;
 
+}
