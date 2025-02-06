@@ -236,3 +236,14 @@ body {
 .btn-custom:hover {
     background-color: #388e3c;
 }
+/* styles for steps to get started */
+.step-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.step-card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
